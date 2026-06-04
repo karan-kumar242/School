@@ -1,0 +1,43 @@
+.counter {
+ 
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+
+}
+#mari {
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+
+#mari:hover {
+  background: linear-gradient(45deg, yellow, gold);
+  color: #000;
+  box-shadow: 
+    0 0 10px yellow,
+    0 0 20px gold,
+    0 0 40px gold;
+  border-radius: 5px;
+  transform: scale(1.05);
+}
+#mitu {
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+#mitu:hover {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: #fff;
+  box-shadow: 
+    0 0 5px #00c6ff,
+    0 0 10px #0072ff;
+  transform: scale(1.05);
+}
